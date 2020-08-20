@@ -1,0 +1,17 @@
+{
+  "name": "arachnet",
+  "version": "1.0.0",
+  "description": "Firefox addon to list all cross site requests of a website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerTebbe/Arachnet.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerTebbe/Arachnet/issues"
+  },
+  "homepage": "https://github.com/DerTebbe/Arachnet#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}

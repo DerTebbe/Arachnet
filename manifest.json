@@ -1,0 +1,32 @@
+{
+  "name": "Arachnet",
+  "description": "Shows all cross site requests of a webpage",
+  "version": "1.0",
+  "author": "Felix Tebbe",
+  "manifest_version": 2,
+
+  "background": {
+    "scripts": [
+      "background/processor.js",
+      "background/capturer.js",
+      "background/controller.js"
+    ]
+  },
+
+  "permissions": [
+    "activeTab",
+    "<all_urls>",
+    "webRequest",
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "48": "icon/icon.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon/icon.png",
+    "default_title": "Arachnet",
+    "default_popup": "popup/table.html"
+  }
+}
